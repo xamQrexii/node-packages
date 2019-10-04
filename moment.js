@@ -2,9 +2,10 @@ const moment = require('moment');
 
 let val;
 
+val = moment().format('YYYY-MM-DD');
 val = moment().format('MMMM Do YYYY');
 val = moment().format('MMMM Do YYYY, h:mm:ss a');
-val = moment().format('ddd');
+val = moment().format('dddd');
 val = moment().format("MMM Do YY");
 
 // format specific date
@@ -23,7 +24,7 @@ val = moment().endOf('day').fromNow();
 val = moment().endOf('week').fromNow();
 val = moment().endOf('month').fromNow();
 val = moment().endOf('year').fromNow();
-val = moment().subtract(3, 'days').calendar()
+val = moment().subtract(3, 'days').calendar();
 val = moment().subtract(10, 'weeks').calendar();
 val = moment().add(2, 'years').calendar();
 console.log(val)
