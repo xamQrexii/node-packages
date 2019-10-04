@@ -3,6 +3,7 @@ Node.js packages with examples
 
 #### Install dependencies before running examples:
 > cd node-packages
+
 > npm install
 
 ###### Commands to run examples:
