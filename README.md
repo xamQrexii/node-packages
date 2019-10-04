@@ -1,7 +1,11 @@
 # node-packages
 Node.js packages with examples
 
-###### Commands below:
+#### Install dependencies before running examples:
+> cd node-packages
+> npm install
+
+###### Commands to run examples:
 Run MomentJS examples
 > node moment.js
 
