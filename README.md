@@ -1,4 +1,4 @@
-# node-packages
+# Node.js Packages
 Node.js packages with examples
 
 #### Install dependencies before running examples:
